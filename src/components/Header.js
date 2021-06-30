@@ -74,7 +74,14 @@ function Header() {
                   </LoginContainer> ) :
 
               < >
-   
+                 <SignOut   >
+                        <UserImg src={userPhoto} alt={userName} />
+                        <DropDown onClick={signOut} >
+                            <span>Signout</span>
+                            
+                        </DropDown>
+                       
+                    </SignOut>
               </ >
           }
 

@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
     <Router>
-      
+    <Header />
 
       <Switch>
         <Route exact path="/home">
@@ -16,7 +16,7 @@ function App() {
         </Route>
 
         <Route exact path="/">
-          <Header />
+         
           <Login />
         </Route>
 
